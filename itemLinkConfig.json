@@ -1,0 +1,21 @@
+{
+    "opc": {
+        "url": ""
+    },
+    "sql": {
+        "url": "",
+        "table": "",
+        "resetTable": false
+    },
+    "items": [
+        {
+            "opc": {
+                "type": ""
+            },
+            "sql": {
+                "name": "",
+                "type": ""
+            }
+        }
+    ]
+}

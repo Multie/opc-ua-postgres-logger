@@ -1,0 +1,46 @@
+{
+    "opc": {
+        "url": "opc.tcp://DESKTOP-1RTKJNS:26543"
+    },
+    "sql": {
+        "user": "postgres",
+        "password": "root",
+        "url": "127.0.0.1",
+        "port": 5432,
+        "database": "postgres",
+        "table": "test",
+        "resetTable": true
+    },
+    "items": [
+        {
+            "opc": {
+                "nodeId": "ns=3;s=Scalar_Simulation_Double",
+                "type": "Double"
+            },
+            "sql": {
+                "name": "doubleValue",
+                "type": "DOUBLE PRECISION"
+            }
+        },
+        {
+            "opc": {
+                "nodeId": "ns=3;s=Scalar_Simulation_DateTime",
+                "type": "Double"
+            },
+            "sql": {
+                "name": "timeValue",
+                "type": "timestamp"
+            }
+        },
+        {
+            "opc": {
+                "nodeId": "ns=1;s=Position",
+                "type": "Double"
+            },
+            "sql": {
+                "name": "position",
+                "type": "Text"
+            }
+        }
+    ]
+}

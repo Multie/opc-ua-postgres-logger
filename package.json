@@ -1,0 +1,23 @@
+{
+  "name": "opc-db-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-opcua": "^2.62.7",
+    "node-opcua-client": "^2.62.7",
+    "nodemon": "^2.0.15",
+    "pg": "^8.7.1",
+    "ts-node": "^10.4.0",
+    "ts-postgres": "^1.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.8",
+    "tslib": "^2.3.1"
+  }
+}
